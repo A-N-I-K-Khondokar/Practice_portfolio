@@ -11,7 +11,18 @@
     font-weight: 700;
     padding: 18px 36px;
 }
-
+.section-title{
+    font-weight:bold;
+    color:#181818;
+    font-size:35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+.secoundary-bg{
+    background-color: #FFF8F3;
+}
 .dark_02 {
     color: #474747;
 }
@@ -83,4 +94,25 @@ nav li a {
     background-image: url(/portfolio-resources/images/developer.png), url(/portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px 50px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }
